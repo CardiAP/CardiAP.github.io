@@ -81,7 +81,8 @@ body>main {
 
 .about {
     grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-end: 5;
+    margin-bottom: 25px;
 }
 
 body>footer {
