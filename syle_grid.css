@@ -20,10 +20,19 @@ body {
 header {
     grid-column-start: 1;
     grid-column-end: 5;
-    display: flex;
-    justify-content: space-around;
     background: #d65f51;
     font-size: 2vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    padding: 0.5% 2%;
+}
+
+.header p {
+    margin-left: 25px;
 }
 
 nav>ul {
@@ -82,6 +91,10 @@ body>footer {
     text-align: center;
     padding: 2%;
     grid-template-rows: 1;
+}
+
+.footer li {
+    color: black;
 }
 
 @media screen and (max-width: 600px) {
