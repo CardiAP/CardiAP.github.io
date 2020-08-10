@@ -87,6 +87,10 @@ body>main {
     margin-bottom: 25px;
 }
 
+.intallation {
+    margin-bottom: 25px;
+}
+
 body>footer {
     grid-column-start: 1;
     grid-column-end: 5;
@@ -100,7 +104,6 @@ body>footer {
     display: flex;
     flex-direction: column;
     color: black;
-    justify-content: center;
 }
 
 .contac-icons {
@@ -110,13 +113,14 @@ body>footer {
     position: relative;
     height: auto;
     color: black;
-    z-index: 2;
     list-style: none;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 .mail {
     display: flex;
-    justify-content: stretch;
+    justify-content: center;
 }
 
 .iconitos {
@@ -128,6 +132,10 @@ body>footer {
 
 .iconitos:hover {
     margin-right: 5px;
+    color: #d65f51;
+}
+
+.mail:hover {
     color: #d65f51;
 }
 
