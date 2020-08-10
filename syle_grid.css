@@ -11,7 +11,7 @@ html {
 body {
     font-family: 'Oswald', Arial, sans-serif;
     display: grid;
-    grid-template-columns: repeat(4, 25%);
+    grid-template-columns: 18% repeat(2, 28%) 26%;
     grid-template-rows: 10vh 100% 10vh;
     height: 100%;
     background-color: #E8E8E8;
@@ -43,9 +43,10 @@ nav>ul {
     justify-content: center;
 }
 
-li {
+.nav-li {
     list-style: none;
     margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 a {
@@ -60,12 +61,13 @@ a:hover {
 body>aside {
     background-color: lightgrey;
     grid-column-start: 1;
-    grid-column-end: 2;
+    grid-column-end: 1;
     text-align: center;
     height: auto;
     padding: 12% 0;
     justify-content: start;
     text-align: inherit;
+    font-weight: bold;
 }
 
 body>main {
@@ -94,8 +96,43 @@ body>footer {
     grid-template-rows: 1;
 }
 
-.footer li {
+.footer {
+    display: flex;
+    flex-direction: column;
     color: black;
+    justify-content: center;
+}
+
+.contac-icons {
+    display: flex;
+    align-items: inherit;
+    padding: 0 6.5vw;
+    position: relative;
+    height: auto;
+    color: black;
+    z-index: 2;
+    list-style: none;
+}
+
+.mail {
+    display: flex;
+    justify-content: stretch;
+}
+
+.iconitos {
+    margin-right: 10px;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+.iconitos:hover {
+    margin-right: 5px;
+    color: #d65f51;
+}
+
+.nav-item {
+    margin-right: 9px;
 }
 
 @media screen and (max-width: 600px) {
