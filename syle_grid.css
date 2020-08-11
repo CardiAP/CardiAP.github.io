@@ -100,6 +100,7 @@ article {
 section:hover {
     background-color: #eeeeee;
     border-radius: 15px;
+    transform: scale(1.01);
 }
 
 .code {
