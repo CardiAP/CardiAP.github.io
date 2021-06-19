@@ -45,6 +45,13 @@ header {
     margin-left: 25px;
 }
 
+.tittle{
+    font-size: 10px;
+    margin-bottom: 12px;
+    text-align: center;
+    color: #8400fa;
+}
+
 nav>ul {
     display: flex;
     flex-direction: row;
@@ -95,17 +102,37 @@ section:hover {
 }
 
 .about{
-    background-color: white;
-    padding: 5% 5% 1% 5%;
+    background-color: #fdfcf7;
+    display: flex;
+    
 }
 
-.dependences{
+.general-info{
+    padding: 5% 5% 1% 5%;
+    width: 100%;
+}
+
+.intallation{
     background-color: #F2C53D;
     padding: 2% 5% 1% 5%;
 }
 
-.cite{
+.tutorial{
+    background-color: white;
     padding: 2% 5% 1% 5%;
+    color:#2f0069;
+}
+
+.tutotial h2{
+    color: #2f0069;
+}
+
+
+.cite{
+    background-color:#8400fa;
+    padding: 2% 5% 1% 5%;
+    color: #fdfcf7;
+    width: 100%;
 }
 
 .code {
@@ -125,7 +152,7 @@ section:hover {
 }
 
 body>footer {
-    background-color: #f44336;
+    background-color: #260273;
     text-align: center;
     padding: 2%;
 }
