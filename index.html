@@ -22,8 +22,8 @@
 
         <nav id="nav-bar">
             <ul>
-                <li class="nav-li"><a href="#about">About CardiAP</a></li>
-                <li class="nav-li"><a href="#installation">Running CardiaAP locally</a></li>
+                <li class="nav-li"><a href="#about">About</a></li>
+                <li class="nav-li"><a href="#instaltion">Running CardiaAP</a></li>
                 <li class="nav-li"><a href="#tutorial">Using CardiaAP</a></li>
                 <li class="nav-li"><a href="#cite">Citing us</a></li>
                 <li class="nav-li"><a href="#footer">Contact Us</a></li>
@@ -40,8 +40,8 @@
             <section class="cite" id="cite">
                 <article>
                     <h2>Citing CardiAP</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor quod quia odit voluptatibus hic. Quae iusto quam sunt vero harum, inventore ea! Veniam odio laborum placeat, autem sunt dolorem assumenda.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, rerum! Esse modi ut nam eveniet repellendus sequi quidem consequuntur, ipsum itaque. Quos eaque laudantium odit molestias cum tempore, dignissimos magni!</p>
+                    <p>CardIAP: Calcium images analyzer web application</p>
+                    <p>Ana Julia Velez Rueda, Agustín García Smith, Luis Alberto Gonano, Gustavo Parisi and Leandro Matías Sommese.</p>
                 </article>
             </section>
         </section>
@@ -76,16 +76,36 @@
 
         <section class="tutorial" id="tutorial">
             <article class="dependences">
-                <h2>Quick start using CardiAP</h2>
+                <h2>Quick start using <b>CardiAP</b></h2>
                 <article>
-                <p>This project is hosted in Binder and Heroku. You can launch <b>CardiAP</b> <a href="http://cardiap.herokuapp.com/">here</a>.</p>
+                <p><b>STEP I:</b> Upload your image or images for analyzing by using the upload button</p>
+                <figure>
+                    <img src="./images/charge_image.png" alt="upload-image">
+                </figure>
+                <p><b>STEP II:</b> select the region of the picture for the analysis. </p>
+                <p><b>CardiAP</b> allows the user to crop each image interactivelly, by using the image display and width and heigth selector. </p>
+                <figure>
+                    <img src="./images/cropping.png" alt="cropp-image">
 
-            </article>
-            <article>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor quod quia odit voluptatibus hic. Quae iusto quam sunt vero harum, inventore ea! Veniam odio laborum placeat, autem sunt dolorem assumenda. Lorem ipsum dolor, sit amet consectetur
-                    adipisicing elit. Quaerat quis nesciunt eveniet itaque commodi dolore. Repellendus nostrum iste, porro suscipit natus, quos adipisci asperiores, qui hic modi exercitationem vitae aliquid!</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor quod quia odit voluptatibus hic. Quae iusto quam sunt vero harum, inventore ea! Veniam odio laborum placeat, autem sunt dolorem assumenda. Lorem ipsum dolor, sit amet consectetur
-                        adipisicing elit. Quaerat quis nesciunt eveniet itaque commodi dolore. Repellendus nostrum iste, porro suscipit natus, quos adipisci asperiores, qui hic modi exercitationem vitae aliquid!</p>
+                    <figcaption> After cropping the image and saving the crop sizes the setting inputs for the analysis are requested.</figcaption>
+                </figure>
+                
+                <figure>
+                    <p><b>STEP III:</b> Voilà!! Now you can check out your results and download the tables</p>S
+                    <img src="./images/result_tables.png" alt="table-image">
+                    <img src="./images/slices.png" alt="slices-image">
+                    <figcaption> 
+                        The results for each picture you uploaded will be provided in a different tab. 
+                        Also, you will be able to check out the information about all the slices.
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <figcaption> 
+                        <p><b>CardiAP</b> also provides the amplitudes and intensities plots.
+                    </figcaption>
+                    <img src="./images/peaks_plots.png" alt="table-image">
+                </figure>
             </article>
         </section>
     </main>

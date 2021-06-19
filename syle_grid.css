@@ -137,15 +137,15 @@ section:hover {
 }
 
 .online-running{
-    background-color: #33be96;
-    color:white;
+    background-color:#260273 ;
+    color:#fdfcf7;
 
     padding: 2% 5% 1% 5%;
     width: 100%;
 }
 
 .online-running a{
-    color:white;
+    color:#fdfcf7;
     font-weight: bold;
 }
 
@@ -155,7 +155,7 @@ section:hover {
     padding: 0 6.5vw;
     position: relative;
     height: auto;
-    color: white;
+    color: #260273;
     list-style: none;
     justify-content: space-between;
     margin-top: 10px;
@@ -171,7 +171,7 @@ section:hover {
 
 
 .tutorial{
-    background-color: white;
+    background-color: #fdfcf7;
     padding: 2% 5% 1% 5%;
     color:#2f0069;
 }
@@ -180,6 +180,17 @@ section:hover {
     color: #2f0069;
 }
 
+.tutorial img{
+    width: 450px;
+    height: 300px;
+    border-radius: 5%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.tutorial figure{
+    margin-top: 15px;
+}
 
 .cite{
     background-color:#8400fa;
