@@ -108,14 +108,39 @@ section:hover {
 }
 
 .general-info{
-    padding: 5% 5% 1% 5%;
+    padding: 2% 5% 1% 5%;
     width: 100%;
 }
 
 .intallation{
-    background-color: #F2C53D;
-    padding: 2% 5% 1% 5%;
+    display: flex;
+    justify-content: center;
 }
+
+.locally-running{
+    background-color: #F2C53D;
+    flex-shrink: 0.6;
+    padding: 2% 5% 1% 5%;
+    width: 100%;
+}
+
+.online-running{
+    background-color: #ee4427;
+    color:white;
+
+    padding: 2% 5% 1% 5%;
+    width: 100%;
+}
+
+.online-running a{
+    color:white;
+    font-weight: bold;
+}
+
+.online-running a:hover{
+    color:#F2C53D;
+}
+
 
 .tutorial{
     background-color: white;
@@ -130,7 +155,8 @@ section:hover {
 
 .cite{
     background-color:#8400fa;
-    padding: 2% 5% 1% 5%;
+    flex-shrink: 0.6;
+    padding: 2% 5% 1% 6%;
     color: #fdfcf7;
     width: 100%;
 }
@@ -138,12 +164,13 @@ section:hover {
 .code {
     background-color: #fdfcf7;
     border-radius: 25px;
-    padding: 20px;
-    height: 5vh;
-    width: 36%;
+    padding: 19px 2px 11px 29px;
+    height: 8vh;
+    width: 60%;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 13px;
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 26px;
 }
 
 .list-dependences {
