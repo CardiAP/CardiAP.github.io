@@ -4,40 +4,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="index.js" type="text/javascript" charset="utf-8" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="syle_grid.css">
-    <title>Challange grid</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="syle_grid.css"> 
+    <title>CardiAP</title>
 </head>
 
 <body>
-    <header>
-        <div class="header">
-            <img src="images/logo.jpeg" class="logo">
-        </div>
-    </header>
-    <aside>
-        <nav>
+    <header class="sticky">
+        <span>
+            <h1>Cardi<b>AP</b></h1>
+        </span>
+
+        <nav id="nav-bar">
             <ul>
                 <li class="nav-li"><a href="#about">About CardiAP</a></li>
-                <li class="nav-li"><a href="#installation">Using CardiaAP</a></li>
+                <li class="nav-li"><a href="#installation">Running CardiaAP locally</a></li>
+                <li class="nav-li"><a href="#tutorial">Using CardiaAP</a></li>
                 <li class="nav-li"><a href="#cite">Citing us</a></li>
                 <li class="nav-li"><a href="#footer">Contact Us</a></li>
             </ul>
         </nav>
-
-    </aside>
-    <main class="about" id="about">
+    </header>
+    <main class="main" id="main">
         <section class="about">
             <article>
                 <h1>About CardIAP</h1>
-                <p>Here we present <strong>CardIAP</strong>, an open-source software for analyzing series of calcium handling phenomena from confocal microscopy images. <strong>CardIAP</strong> is a Python based tool, which allows users to easily work with
-                    a single file or a pool of images, and obtain representative amplitude and kinetics data, and it’s statistical analysis.</p>
-                <p><strong>CardIAP</strong> allows users to elucidate and distinguish calcium pattern disorders by extracting and calculating whole cell and local transient´s parameters such us relative amplitude, time to peak, tau decay, time to half amplitude.
-                    Lastly, our software can easily detect discordancy, alternancy and disynchrony phenomena with a sensitivity of 100 % and a significance of 95%, meaning to be a robust and flexible tool.</p>
+                <p>Here we present <strong>CardIAP</strong>, an open-source web application for analyzing series of calcium handling phenomena from confocal microscopy images.</p>
+                <p><strong>CardIAP</strong> is a Python based tool, which allows users to easily work with a single file or a pool of images, and obtain representative amplitude and kinetics data.</p>
             </article>
 
         </section>
         <section class="intallation" id="instaltion">
+            <article class="dependences">
+                <h1>Quick start using CardiAP</h1>
+                <article>
+                    <p> <strong>CardiAP</strong> is a Python based tool, which allows users to easily work with a single file or a pool of images, and obtain representative amplitude and kinetics data, and it’s statistical analysis.</p>
+                    <p>The dependences used are:</p>
+                    <ul class="list-dependences">
+                        <li>PeakUtils</li>
+                        <li>Opencv-python</li>
+                        <li>PyQt5</li>
+                        <li>PyQt5-stubs</li>
+                    </ul>
+                </article>
+                <p>You can easly use <strong>CardiAP</strong> as Python library by installing it like follows:</p>
+                <div class="code">
+                    <p>pip install</p>
+                </div>
+                <p>Or simply download the executable file for runnig it as a local software.</p>
+            </article>
+        </section>
+
+        <section class="tutorial" id="tutorial">
             <article class="dependences">
                 <h1>Quick start using CardiAP</h1>
                 <article>
