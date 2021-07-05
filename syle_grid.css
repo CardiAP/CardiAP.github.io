@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -8,8 +7,9 @@
 
 .fixed {
     position: fixed;
-    top:0; left:0;
-    width: 100%; 
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 html {
@@ -26,7 +26,7 @@ body {
 }
 
 header {
-    background:white;
+    background: white;
     font-size: 1.2vw;
     display: flex;
     flex-direction: column;
@@ -46,7 +46,7 @@ header {
     margin-left: 25px;
 }
 
-.tittle{
+.tittle {
     font-size: 10px;
     margin-bottom: 12px;
     text-align: center;
@@ -81,7 +81,6 @@ a:hover {
     z-index: inherit;
 }
 
-
 body>main {
     color: #260273;
     text-align: center;
@@ -107,80 +106,67 @@ section:hover {
     transform: scale(1.01);
 }
 
-.about{
+.about {
     background-color: #fdfcf7;
     display: flex;
-    
 }
 
-
-.about p{
+.about p {
     margin-bottom: 15px;
-    
 }
 
-.general-info{
+.general-info {
     padding: 2% 5% 1% 5%;
     width: 100%;
 }
 
-.intallation{
-    display: flex;
-    justify-content: center;
-}
-
-.locally-running{
+.locally-running {
     background-color: #F2C53D;
     flex-shrink: 0.6;
     padding: 2% 5% 1% 5%;
     width: 100%;
 }
 
-.online-running{
-    background-color:#260273 ;
-    color:#fdfcf7;
-
+.online-running {
+    background-color: #F2C53D;
     padding: 2% 5% 1% 5%;
     width: 100%;
 }
 
-.online-running a{
-    color:#fdfcf7;
+.online-running a {
+    color: #260273;
     font-weight: bold;
 }
 
 .project-icons {
     display: flex;
     align-items: inherit;
-    padding: 0 6.5vw;
     position: relative;
     height: auto;
     color: #260273;
     list-style: none;
-    justify-content: space-between;
     margin-top: 10px;
 }
 
-.project-item{
+.project-item {
     font-size: 42px;
 }
 
-.online-running a:hover{
-    color:#F2C53D;
+.online-running a:hover {
+    color: #F2C53D;
 }
 
-
-.tutorial{
+.tutorial {
     background-color: #fdfcf7;
     padding: 2% 5% 1% 5%;
-    color:#2f0069;
-}
-
-.tutotial h2{
     color: #2f0069;
 }
 
-.tutorial img{
+.tutotial h2 {
+    color: #2f0069;
+}
+
+.tutorial img {
     width: 450px;
     height: 300px;
     border-radius: 5%;
@@ -188,12 +174,12 @@ section:hover {
     margin-top: 15px;
 }
 
-.tutorial figure{
+.tutorial figure {
     margin-top: 15px;
 }
 
-.cite{
-    background-color:#8400fa;
+.cite {
+    background-color: #8400fa;
     flex-shrink: 0.6;
     padding: 2% 5% 1% 6%;
     color: #fdfcf7;
@@ -269,11 +255,9 @@ body>footer {
     body {
         background-color: #E8E8E8;
     }
-    
     nav {
         display: none;
     }
-
     body>footer {
         position: relative;
     }
