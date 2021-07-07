@@ -102,7 +102,6 @@ h2 {
 }
 
 section:hover {
-    border-radius: 15px;
     transform: scale(1.01);
 }
 
@@ -156,6 +155,10 @@ section:hover {
     color: #F2C53D;
 }
 
+.installation a:hover{
+    color:  #fdfcf7;
+}
+
 .tutorial {
     background-color: #fdfcf7;
     padding: 2% 5% 1% 5%;
@@ -179,11 +182,11 @@ section:hover {
 }
 
 .cite {
-    background-color: #8400fa;
+    background-color: #2f0069;
     flex-shrink: 0.6;
     padding: 2% 5% 1% 6%;
     color: #fdfcf7;
-    width: 100%;
+    width: 40%;
 }
 
 .code {
@@ -196,6 +199,14 @@ section:hover {
     margin-bottom: 13px;
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-bottom: 26px;
+}
+
+.cite a{
+    color:  #fdfcf7;
+}
+
+.cite a:hover{
+    color: #F2C53D;
 }
 
 .list-dependences {
