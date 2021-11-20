@@ -71,7 +71,10 @@ a {
 }
 
 a:hover {
-    color: #F2C53D;
+    color: rgb(250, 101, 84);
+}
+.activate {
+    color: rgb(250, 101, 84);
 }
 
 .logo {
@@ -92,7 +95,7 @@ body>main {
 
 h1 {
     margin-bottom: 10px;
-    color: #260273;
+    color: rgb(250, 101, 84);
     font-weight: bolder;
     font-size: 2.6vw;
 }
@@ -115,31 +118,33 @@ section:hover {
 }
 
 .general-info {
-    padding: 2% 5% 1% 5%;
+    padding: 6% 10% 6% 10%;
     width: 100%;
 }
 
 .locally-running {
-    background-color: #F2C53D;
+    background-color: #260273;
+    color: #e7e7e7;
     flex-shrink: 0.6;
     padding: 2% 5% 1% 5%;
     width: 100%;
 }
 
 .online-running {
-    background-color: #F2C53D;
-    padding: 2% 5% 1% 5%;
+    background-color: #260273;
+    color: #e7e7e7;
+    padding: 2% 5% 2% 5%;
     width: 100%;
 }
 
 .online-running a {
-    color: #260273;
+    color: white;
     font-weight: bold;
 }
 
 .project-icons {
     display: flex;
-    align-items: inherit;
+    justify-content: flex-start;
     position: relative;
     height: auto;
     color: #260273;
@@ -149,18 +154,19 @@ section:hover {
 
 .project-item {
     font-size: 42px;
+    margin-right: 15px;
 }
 
 .online-running a:hover {
-    color: #F2C53D;
+    color: salmon;
 }
 
 .installation a:hover{
-    color:  #fdfcf7;
+    color: salmon;
 }
 
 .tutorial {
-    background-color: #fdfcf7;
+    background-color: #e7e7e7;
     padding: 2% 5% 1% 5%;
     color: #2f0069;
 }
@@ -183,13 +189,19 @@ section:hover {
 .cite {
     background-color: #2f0069;
     flex-shrink: 0.6;
-    padding: 2% 5% 1% 6%;
+    padding: 6% 5% 6% 10%;
     color: #fdfcf7;
     width: 40%;
 }
 
+.botton-section{
+    display: flex;
+    flex-direction: row;
+}
+
 .code {
-    background-color: #fdfcf7;
+    background-color: #fafaf8;
+    color:#2f0069;
     border-radius: 25px;
     padding: 19px 2px 11px 29px;
     height: 8vh;
@@ -200,12 +212,16 @@ section:hover {
     padding-bottom: 26px;
 }
 
+.link-white{
+    color: #fafaf8;
+}
+
 .cite a{
     color:  #fdfcf7;
 }
 
 .cite a:hover{
-    color: #F2C53D;
+    color: salmon;
 }
 
 .list-dependences {
@@ -214,52 +230,19 @@ section:hover {
 }
 
 body>footer {
-    background-color: #260273;
+    background-color: white;
     text-align: center;
     padding: 2%;
+    color: #2f0069;
 }
 
-.footer {
-    display: flex;
-    flex-direction: column;
-    color: white;
+.contact{
+    padding: 6% 5% 6% 10%;
+    width: 40%;
+    background-color: #e7e7e7;
+    
 }
 
-.contac-icons {
-    display: flex;
-    align-items: inherit;
-    padding: 0 6.5vw;
-    position: relative;
-    height: auto;
-    color: white;
-    list-style: none;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-.mail {
-    display: flex;
-    justify-content: center;
-}
-
-.iconitos {
-    margin-right: 10px;
-    color: white;
-    list-style: none;
-    text-decoration: none;
-}
-
-.iconitos:hover {
-    color: #e7e7e7;
-}
-
-.mail:hover {
-    color: #e7e7e7;
-}
-
-.nav-item {
-    margin-right: 9px;
-}
 
 @media screen and (max-width: 600px) {
     body {
