@@ -194,6 +194,10 @@ section:hover {
     width: 40%;
 }
 
+.cite p, .contact p{
+    margin-bottom: 15px;
+}
+
 .botton-section{
     display: flex;
     flex-direction: row;
@@ -241,6 +245,16 @@ body>footer {
     width: 40%;
     background-color: #e7e7e7;
     
+}
+
+.contact div{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.contact i{
+    margin-right: 15px;
 }
 
 
