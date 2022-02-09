@@ -23,79 +23,31 @@
             <ul>
                 <li class="nav-li"><a href="index.html">About</a></li>
                 <li class="nav-li"><a href="tutorial.html">Using CardIAP</a></li>
-                <li class="nav-li"><a href="#documentation.html" class="activate">Documentation</a></li>
+                <li class="nav-li"><a href="documentation.html" class="activate">Documentation</a></li>
                 <li class="nav-li"><a href="index.html">Citing us</a></li>
                 <li class="nav-li"><a href="index.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
     <main class="main" id="main">
-        <section class="installation" id="installation">
-            <article class="locally-running">
-                <h2>Using CardIAP locally</h2>
-                <p>You can easly use <strong>CardIAP</strong> locally by installing it like follows:</p>
-                <div class="code">
-                    <p>$ voila CardiAP.ipynb</p>
-                    <p> $ voila CardiAP.ipynb --autoreload=True</p>
-                </div>
-                <div class="code">
-                    <p> $ virtualenv venv</p>
-                    <p>$ ./venv/bin/activate</p>
-                    <p> $ pip3 install -r requirements.txt </p>
-                </div>
-                <p><b>CardIAP</b> image analysis is based on <a href="https://pypi.org/project/cardilib/0.0.2/" target="_blank" class="link-white"><b>cardilib</b></a>, a python library created by the authors for or performing biomedical images analysis. </p>
-                <p>This package based on NumPy, OpenCV, and Pandas libraries is available for installation and usage in all operative systems through
-                    <a href="https://pypi.org/project/cardilib/" class="link-white"><b>pip</b></a>.</p>
-            </article>
-            <article class="online-running">
-                <h2>You can run CardIAP Online</h2>
-                <article>
-                    <p>This project is hosted in Binder and Heroku. Launch <b>CardIAP</b> <a href="http://cardiap.herokuapp.com/" class="link-white" target="_blank">here</a>:</p>
-                    <ul class="project-icons">
-                        <li class="project-item">
-                            <a class="iconitos link-white" href="http://cardiap.herokuapp.com/" target="_blank"><i class="fa fa-globe"></i></a>
-                        </li>
-                        <li class="project-item">
-                            <a class="iconitos link-white" href="https://github.com/CardiAP/CardiAp" target="_blank"><i class="fa fa-github"></i></a>
-                        </li>
-                    </ul>
-                </article>
-            </article>
+        <section class="about">
+            <section class="general-info">
+                    <h2>Introduction</h2>
+                    <p><strong>CardIAP</strong> is an open-source Python web application that allows the user to set all necessary parameters for biomedical images analysis. CardiAP not only allows users to select the image's regions of interest but also to retrieve and explore the analysis output data. In addition, CardIAP can be used as a standalone python library.
+                    </p>
+                    <p> The images that can be generated in the study of the heart have the particularity of requiring both spatial and temporal analysis. <strong>CardIAP</strong> aims to open the field of cardiomyocyte image processing and make an improvement in the extraction of information from the images allowing optimizing the usage of resources and animals.
+                    </p>
+                    <p>With <strong>CardIAP</strong>, users can retrieve the average intensities of pixels across images and download the analyzed data. In addition, users can run the analysis to both, the complete image, or portions of it in an easy way, and replicate it on a series of images. This analysis provides users information on the spatial and temporal changes in calcium releases and characterizes them through indexes and ratios.
+                    </p>
+            </section>
+            <section class="general-info">
+                <h2>Images</h2>
+                <p><strong>CardIAP</strong> is prepared to use linescan </p>
+            </section>
         </section>
-
-        <section class="tutorial" id="tutorial">
-            <article class="dependences">
-                <h2>Quick start using <b>CardIAP</b></h2>
-                <article>
-                    <p><b>STEP I:</b> Upload your image(s) to analyze using the upload button.</p>
-                    <p><b>Start</b> button displays image(s). Users can delete the image(s) using <b>Clear</b> button.</p>
-                    <figure>
-                        <img src="./images/Figura_cadiap_A.png" alt="upload-image">
-                    </figure>
-                    <p><b>STEP II:</b> select the region of the picture for the analysis. </p>
-                    <p><b>CardIAP</b> allows the user to crop each image interactivelly, by using the image display and width and heigth selector. </p>
-                    <figure>
-                        <img src="./images/Figura_cadiap_B.png" alt="cropp-image">
-
-                        <figcaption> After cropping the image and saving the crop sizes the setting inputs for the filtering and analysis are requested.</figcaption>
-                    </figure>
-
-                    <figure>
-                        <p><b>STEP III:</b> Voilà!! Now you can check out your results and download the tables</p>
-                        <img src="./images/Figura_cadiap_C.png" alt="table-image">
-                        <img src="./images/Figura_cadiap_D.png" alt="slices-image">
-                        <figcaption>
-                            The results for each picture you uploaded will be provided in a different tab. Also, you will be able to check out the information about all the slices.
-                        </figcaption>
-                        <p><b>CardIAP</b> also provides the amplitudes and intensities plots.</p>
-                    </figure>
-                </article>
-        </section>
-
     </main>
     <footer>
         <p>Copyright (c) 2020-2021 Velez Rueda, Garcia Smith, Sommese</p>
     </footer>
 </body>
-
 </html>
