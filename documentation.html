@@ -41,11 +41,32 @@
             <section class="general-info">
                 <h2>Images</h2>
                 <p><strong>CardIAP</strong> is prepared to use confocal linescan images of electrically paced cardiomyocyte. Images must be vertically oriented.</p>
+                <p>Multiple images can be loaded. Each image must be in TIFF format and be displayed as monocromatic. If <strong>CardIAP</strong> does not recognizes the format of any image shows the message, <em>"Please upload an image first"</em></p>
                 <figure>
                     <img src="./images/C1b000.png" alt="linescan-image" width="250" height="250">
-                    <figcaption> After cropping the image and saving the crop sizes the setting inputs for the filtering and analysis are requested.</figcaption>
                 </figure>
-                <p></p>
+                <p>User must select a ROI for each one. This ROI must include at least one peak and not include background.</p>
+                </section>
+            <section class="general-info">
+                <h2>Smoothing parameters</h2>
+                <p><strong>CardIAP</strong> enables the user to use a bilateral filter to smooth the image.</p>
+                <p><strong>Kernel size:</strong> Diameter of each pixel neighborhood that is used during filtering. A value of zero allows not to filter the image.</p>
+                <p><strong>Sigma:</strong> 	Filter sigma in the coordinate space. A larger value of the parameter means that farther pixels will influence each other as long as their colors are close enough. When d>0, it specifies the neighborhood size regardless of sigmaSpace. Otherwise, d is proportional to sigmaSpace. A value of zero allows not to filter the image.</p>
+            </section>
+            <section class="general-info">
+                <h2>Analysis parameters</h2>
+                <p><strong>Slice width:</strong> dividing the ROI into slices, these have the established dimension and the number of slices is equal to the width of the ROI divided by the chosen slice size. Keep in mind that the dimensions of the last slice will correspond to the rest of that division. This can't be zero.</p>
+                <p><strong>Distance between maxs:</strong> It is a measurement in pixels that allows <strong>CardIAP</strong> to optimize the search for peaks. It does not need to be exact, so it can be estimated from the relationship between the size of the image and the number of peaks in it. This can't be zero.</p>
+                <p><strong>Calibration:</strong> refers to a factor that relates pixels to time. This can be calculated from the image capture time.</p>
+            </section>
+            <section class="general-info">
+                <h2>Results</h2>
+                <p><strong>CardIAP</strong> analysis results are presented in differents tabs for the complete cell analysis, slices data tables and individual slices analysis.</p>
+                <p><strong>Complete cell</strong> tab shows two tables. The first one contains all features calculated for each peak. In the second one are showed baseline data for each peak. Users can download both tables using links below each one.</p>
+                <p>In order for the user to have a graphic representation of the intensities of the photo, the plot of the average intensities versus time and the amplitude values ​​for each peak are shown.</p>
+                <p>Discordance indexes and alternance ratio data are shown in a couple of tables. Local alternance ratio distribution is presented in boxplots.</p>
+                <p><strong>Slices General Data</strong> tab has two links for downloading slices analysis results.</p>
+                <p><strong>Slices details</strong> tab has a selector that allows you to select a slice to view the corresponding data tables and graphs.</p>
             </section>
         </section>
     </main>
