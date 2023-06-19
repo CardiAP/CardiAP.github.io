@@ -52,7 +52,7 @@
             <article class="online-running">
                 <h2>You can run CardIAP Online</h2>
                 <article> 
-                    <p>This project is hosted in Binder and Heroku. Launch <b>CardIAP</b> <a href="https://mybinder.org/v2/gh/CardiAP/CardiAp/HEAD?urlpath=%2Fvoila%2Frender%2FCardiAP.ipynb" class="link-white" target="_blank">here</a>:</p>
+                    <p>This project is hosted in Binder. Launch <b>CardIAP</b> <a href="https://mybinder.org/v2/gh/CardiAP/CardiAp/HEAD?urlpath=%2Fvoila%2Frender%2FCardiAP.ipynb" class="link-white" target="_blank">here</a>:</p>
                     <ul class="project-icons">
                         <li class="project-item">
                             <a class="iconitos link-white" href="https://mybinder.org/v2/gh/CardiAP/CardiAp/HEAD?urlpath=%2Fvoila%2Frender%2FCardiAP.ipynb" target="_blank"><i class="fa fa-globe"></i></a>
@@ -94,7 +94,45 @@
                     </figure>
                 </article>
         </section>
-
+        <br>
+        <section class="tutorial" id="tutorial">
+            <article class="dependences">
+                <h2>Video tutorial</h2>
+                <article>
+                    <br>
+                    <p><b>CardIAP usage:</b> Once the application is deployed, we must load an image from the <b>upload</b> button, we select the image and when we click on the <b>play</b> button it appears on the screen.
+                        Using the scroll bars we can select a rectangle that will represent our area of interest. Make sure that area takes only a region within the cell that contains at least one Ca2+ transient. Once established, the selection can be saved through the <b>save crop sizes</b> button. This will display a configuration menu for filter and analysis parameters.</p>
+                    </br>
+                    <br>
+                    <p>The filter setting is loaded with zero, so no filter will be applied to the ROI. The values depend on the noise in our images but we usually use a value of 5 for the <b>kernel size</b> and a <b>sigma</b> of 75.
+                        Regarding the analysis setting, we can set the width of the slices (<b>Slices width</b>), which we recommend to be greater than one to reduce possible noise. The distance between peaks (<b>Peaks dist.</b>) can be known through the frequency or measured using the scroll bars. <b>Calibration</b> allows the users to modify the data corresponding to time.
+                        Once the parameterization is finished, we proceed to analyze by clicking on the <b>Analyze</b> button.
+                    </p>
+                    </br>
+                    <br>
+                    <p>Once the results are displayed, they can be downloaded. In the first tab the complete ROI data is shown, in the second the data of all the slices can be downloaded and in the third tab we can view and download the desired slices.
+                    </p>
+                    </br>
+                    <br>
+                        <video width="500px" height="280px" controls="controls">
+                        <source src="./images/VideoTutorial1.mp4" type="video/mp4" />
+                    </video>
+                    </br>
+                    <br>
+                    <p><b>Dealing with analysis error</b>
+                    </br>
+                    <br>
+                    <p>
+                        When <b>CardIAP</b> displays an analysis error message it is usually related to the ROI selection, usually when one of the slices does not contain the Ca2+ transient. This can be fixed by making sure the selection is inside the cell and includes Ca2+ transients. Another possible reason for this type of error is that the image is too noisy. In this case, the user can apply filters or determine the proper spacing between peaks. <b>CardIAP</b> allows the user to correct the parameters without having to reload the image.    
+                    </p>
+                    </br>
+                    <video width="500px" height="280px" controls="controls">
+                        <source src="./images/VideoTutorial2.mp4" type="video/mp4" />
+                    </video>
+                    
+                </article>
+        </section>
+        </br>
     </main>
     <footer>
         <p>Copyright (c) 2020-2021 Velez Rueda, Garcia Smith, Sommese</p>
