@@ -65,6 +65,11 @@ nav>ul {
     margin-bottom: 10px;
 }
 
+.installation a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
 a {
     text-decoration: none;
     color: #260273;
@@ -214,13 +219,28 @@ section:hover {
     background-color: #fafaf8;
     color:#2f0069;
     border-radius: 25px;
-    padding: 19px 2px 15px 29px;
-    height: 8vh;
-    width: 60%;
     margin-top: 15px;
     margin-bottom: 13px;
     font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-bottom: 35px;
+}
+
+.small-cell {
+    padding: 19px 2px 15px 29px;
+    height: 1.5vw;
+    width: 60%;
+}
+
+.big-cell {
+    padding: 19px 2px 15px 29px;
+    height: 8vw;
+    width: 60%;
+}
+
+.medium-cell {
+    padding: 19px 2px 15px 29px;
+    height: 3vw;
+    width: 60%;
 }
 
 .link-white{
@@ -245,6 +265,10 @@ body>footer {
     text-align: center;
     padding: 2%;
     color: #2f0069;
+}
+
+.footer {
+    text-align: center;
 }
 
 .contact{

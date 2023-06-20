@@ -32,16 +32,23 @@
     <main class="main" id="main">
         <section class="installation" id="installation">
             <article class="locally-running">
-                <h2>Using CardIAP locally</h2>
+                <h2>Using CardIAP with Docker</h2>
+                <p>With <a href="https://docs.docker.com/get-docker/">Docker</a> installed in your machine, run in the terminal the following command:</p>
+                <div class="code small-cell">
+                    <p>$ docker run -it --rm --net host ajvelezrueda/cardiap</p>
+                </div>
+                <p>CardiAP will be listening at <a href="#">//localhos:5000/</a></p>
+                <br>
+                <h2>Running CardIAP locally for contributing</h2>
                 <p>You can easly use <strong>CardIAP</strong> locally by installing it like follows:</p>
-                <div class="code">
+                <div class="code big-cell">
                     <p>$ git clone https://github.com/CardiAP/CardiAp.git</p>
                     <p> $ virtualenv venv</p>
                     <p>$ ./venv/bin/activate</p>
                     <p> $ pip3 install -r requirements.txt </p>
                 </div>
                 <p>And locally-running as follows:</p>
-                <div class="code">
+                <div class="code medium-cell">
                     <p>$ voila CardiAP.ipynb</p>
                     <p> $ voila CardiAP.ipynb --autoreload=True</p>
                 </div>
@@ -52,10 +59,10 @@
             <article class="online-running">
                 <h2>You can run CardIAP Online</h2>
                 <article> 
-                    <p>This project is hosted in Binder. Launch <b>CardIAP</b> <a href="https://mybinder.org/v2/gh/CardiAP/CardiAp/HEAD?urlpath=%2Fvoila%2Frender%2FCardiAP.ipynb" class="link-white" target="_blank">here</a>:</p>
+                    <p>This project is hosted in Binder. Launch <b>CardIAP</b> <a href="http://50.19.16.236/" class="link-white" target="_blank">here</a>:</p>
                     <ul class="project-icons">
                         <li class="project-item">
-                            <a class="iconitos link-white" href="https://mybinder.org/v2/gh/CardiAP/CardiAp/HEAD?urlpath=%2Fvoila%2Frender%2FCardiAP.ipynb" target="_blank"><i class="fa fa-globe"></i></a>
+                            <a class="iconitos link-white" href="http://50.19.16.236/" target="_blank"><i class="fa fa-globe"></i></a>
                         </li>
                         <li class="project-item">
                             <a class="iconitos link-white" href="https://github.com/CardiAP/CardiAp" target="_blank"><i class="fa fa-github"></i></a>
